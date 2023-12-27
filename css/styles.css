@@ -17,6 +17,7 @@ ol {
 img {
     max-width: 100%;
 }
+
 /*--- Portada index --- */
 .logo-index {
     max-width: 120px;
@@ -34,18 +35,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-
-
-.titulo-portada {
     color: white;
-
 }
 
 .sabores-index {
-    max-width: 100% ;
+    max-width: 100%;
     background-color: antiquewhite;
     display: flex;
     justify-content: space-evenly;
@@ -82,7 +76,6 @@ footer a {
 
 .texto-contacto {
     display: flex
-    
 }
 
 body {
@@ -169,6 +162,7 @@ footer form div {
         margin: 10px 0;
     }
 }
+
 form {
     margin-top: 20px;
 }
@@ -192,9 +186,10 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    input,
-    select {
-        width: calc(100% - 16px);
-    }
+.container {
+    display: grid
+}
+
+.container{
+    grid-template-rows: repeat(3fr);
 }
