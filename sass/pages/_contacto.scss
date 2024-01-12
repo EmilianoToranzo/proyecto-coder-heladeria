@@ -1,0 +1,73 @@
+titulo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el título 'Contacto' */
+.titulo-contacto {
+    color: #333;
+    font-size: 28px;
+}
+
+/* Estilos para la sección de texto de contacto */
+.texto-contacto {
+    margin-top: 20px;
+}
+
+.texto-contacto h1 {
+    color: #555;
+    font-size: 24px;
+}
+
+.texto-contacto img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.texto-contacto p {
+    color: #777;
+    font-size: 16px;
+}
+
+/* Estilos para el formulario de contacto */
+.form-contacto {
+    margin-top: 20px;
+}
+
+.form-contacto label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-contacto input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+

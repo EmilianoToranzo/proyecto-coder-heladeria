@@ -1,0 +1,21 @@
+footer {
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+footer a {
+    color: white
+}
+footer form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer form div {
+    margin-bottom: 10px;
+}
