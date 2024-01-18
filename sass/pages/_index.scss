@@ -17,7 +17,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: $black-color;
 }
 .titulo-center{
     text-align: center;
@@ -29,7 +29,7 @@ main{
     background-color:$secondary-color;
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
+    max-width: 220px;
     overflow: auto;
     border-radius: 45px;
     margin-top:  20px;
@@ -41,8 +41,10 @@ main{
     flex-direction: column;
     align-self: center ;
     padding: 1rem;
+    max-width: 220px;
 }
 .img-circle{
+    max-width: 220px;
     border-radius: 50%;
 }
 

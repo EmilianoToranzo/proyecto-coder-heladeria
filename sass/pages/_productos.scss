@@ -1,0 +1,10 @@
+.productos-items-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center ;
+    padding: 1rem;
+}
+.img-circle{
+    border-radius: 50%;
+    max-width: 220px;
+}
