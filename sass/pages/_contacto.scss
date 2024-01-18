@@ -10,18 +10,18 @@ titulo-contacto {
 }
 
 main {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Estilos para el título 'Contacto' */
 .titulo-contacto {
+    display: flex;
     color: #333;
     font-size: 28px;
+    justify-content: center;
 }
 
-/* Estilos para la sección de texto de contacto */
+
 .texto-contacto {
     margin-top: 20px;
 }
@@ -42,7 +42,7 @@ main {
     font-size: 16px;
 }
 
-/* Estilos para el formulario de contacto */
+
 .form-contacto {
     margin-top: 20px;
 }

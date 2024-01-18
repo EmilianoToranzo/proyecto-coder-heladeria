@@ -9,34 +9,41 @@
 </head>
 
 <body>
-
     <header>
-        <div class="logo-index"><a href="../index.html"><img src="../img/logo.png" alt=""></a> </div>
-        <a href="../index.html"></a>
-        <img src="" alt="">
+        <!-- Logo -->
+        <div class="nav-container">
+        <div class="logo-index">
+            <a href="index.html">
+                <img src="../img/logo.png" alt="" width="200px" height="200px">
+            </a>
+        </div>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="../pages/empleos.html">Empleos</a>
+                <li><a href="../pages/empleos.html">Empleos</a></li>
                 <li><a href="../pages/productos.html">Productos</a></li>
                 <li><a href="../pages/locales.html">Locales</a></li>
             </ul>
         </nav>
+    </div>
     </header>
+
     <main>
         <h1 class="titulo-contacto">Contacto</h1>
-        <section class="texto-contacto">
-            <h1>Contactate con nosotros</h1>
-            <img src="" alt="">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptate quod eum quasi perferendis
-                delectus iusto ipsam eius architecto reprehenderit odio sapiente natus doloremque, vel iure sequi itaque
-                magni quidem.
-            </p>
-        </section>
-
-        <form action=""class="form-contacto">
+        <div>
+            <section class="texto-contacto">
+                <h1>Contactate con nosotros</h1>
+                <img src="../img/empleos.jpg" alt="hombre trabajando">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptate quod eum quasi perferendis
+                    delectus iusto ipsam eius architecto reprehenderit odio sapiente natus doloremque, vel iure sequi
+                    itaque
+                    magni quidem.
+                </p>
+            </section>
+        </div>
+        <form action="" class="form-contacto">
             <div>
                 <label for="nombre-contacto">Nombre:</label>
                 <input type="text" id="nombre-contacto">
@@ -54,12 +61,11 @@
                 <textarea name="" id="mensaje-contacto" cols="30" rows="10"></textarea>
             </div>
             <div>
-                <input type="submit" value="Enviar" </div>
-
-
+                <input type="submit" value="Enviar">
+            </div>
         </form>
-        </div>
     </main>
+
     <footer>
         <h3>Suscribite a novedades</h3>
         <form action="">
