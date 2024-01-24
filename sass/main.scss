@@ -11,9 +11,8 @@
 @import "./pages/locales";
 @import "./pages/productos";
 
-.logo-index {
-  max-width: 120px;
-}
+
+
 @media (max-width: 500px) {
   header {
       flex-direction: column;
