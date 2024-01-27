@@ -94,6 +94,8 @@ main {
   border-radius: 45px;
   margin-top: 20px;
   margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
 }
 
 .productos-item-container {
@@ -128,6 +130,7 @@ main {
 @media (max-width: 474px) {
   .productos-index, .footer-index, .nav-container {
     flex-direction: column;
+    align-items: center;
   }
 }
 .titulo-contacto {
@@ -186,11 +189,6 @@ main {
     align-items: center;
   }
 }
-body {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background-color: #333;
   color: #fff;
@@ -207,7 +205,27 @@ header {
 }
 
 .empleos-img {
-  max-width: 200px !important;
+  background-image: url(../../img/hombretrabajando.jpg);
+  max-width: 100%;
+  height: auto;
+}
+
+.portada-empleos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+}
+
+.portada-texto {
+  font-size: 25px;
+  padding: 3rem;
+}
+
+.form-label {
+  font-size: 25px;
+  border: solid 1px;
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 footer {
@@ -242,6 +260,13 @@ footer nav a {
   text-decoration: none;
 }
 
+@media (max-width: 474px) {
+  .portada-empleos, .empleos-img, .portada-texto, .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -358,7 +383,7 @@ main h1 {
 
 .local-container {
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .local-container h3 {
@@ -397,6 +422,15 @@ main h1 {
 .img-circle {
   border-radius: 50%;
   max-width: 220px;
+}
+
+.titulo-productos {
+  text-align: start;
+  padding: 1rem;
+}
+
+.titulo-productos:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 500px) {
